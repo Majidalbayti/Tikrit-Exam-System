@@ -20,7 +20,7 @@ st.markdown("""
         margin-bottom: 25px;
     }
     .main-header h1 { color: white !important; }
-    .main-header p { color: #e5a93b !important; font-size: 1.2em; font-weight: bold; }
+    .main-header h2 { color: #e5a93b !important; font-size: 2.2em; font-weight: bold; }
     .stButton>button {
         background-color: #1b365d; color: #e5a93b; border-radius: 8px; border: 2px solid #e5a93b; font-weight: bold; width: 100%;
     }
@@ -31,7 +31,7 @@ st.markdown("""
 st.markdown("""
     <div class="main-header">
         <h1>جامعة تكريت</h1>
-        <p>كلية علوم الحاسوب والرياضيات - نظام التوزيع الذكي</p>
+        <h2>كلية علوم الحاسوب والرياضيات </h2>
     </div>
     """, unsafe_allow_html=True)
 
